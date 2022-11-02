@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(153, 94, 230, 0.466);
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(163, 76, 245);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: blue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 6px 7px 12px 2px rgb(0 0 0 / 39%);
+        }
+
+        main{
+            background-color: rgb(163, 76, 245); 
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 10px;
+            box-shadow: 5px 6px 10px 0px rgba(0, 0, 0, 0.411);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(111, 0, 255);
+            border-radius: 5px;
+        }
+
+        article > aside{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam magnam voluptate nesciunt laudantium quos corrupti, voluptatum debitis voluptatem repellendus sunt cum asperiores libero recusandae veniam iusto ratione iure ipsam.</p>
+                <aside>
+                    <p>Escrito por Dudu</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Dudu
+    </footer>
+</body>
+</html>
